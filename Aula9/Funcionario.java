@@ -3,8 +3,6 @@ package aulas;
 public class Funcionario {
 	private String nome, cargo;
 	private Double salario;
-	
-	
 
 	public String getNome() {
 		return nome;
@@ -29,7 +27,7 @@ public class Funcionario {
 	public void setSalario(Double salario) {
 		this.salario = salario;
 	}
-	
+
 	public double abonoSalario(Double abono) {
 		return this.salario = this.salario + abono;
 	}
